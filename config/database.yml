@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: slackclone_production
-  username: slackclone
+  username: erictso
   password: <%= ENV['SLACKCLONE_DATABASE_PASSWORD'] %>

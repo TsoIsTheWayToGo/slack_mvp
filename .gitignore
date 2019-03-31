@@ -24,4 +24,12 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
+bundle.js
 /config/master.key
+
+bundle.js.map
+node_modules/
+.DS_Store
+npm-debug.log
+
+/public/assets
